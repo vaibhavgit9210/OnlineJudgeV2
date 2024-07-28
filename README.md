@@ -2,12 +2,6 @@
 
 OnlineJudgeV2 is an interactive online platform for coding enthusiasts. It allows users to solve programming challenges and run code snippets in C, C++, Java, and Python.
 
-You can use [@ah_naf/runcode](https://www.npmjs.com/package/@ah_naf/runcode) npm package to run C, C++, Python and Java code.
-
-## Demo
-
-For a visual demonstration of OnlineJudgeV2 in action, check out our [video demo](https://youtu.be/Xfc7_3AgQOw).
-
 ## Features
 
 ### User Capabilities
@@ -71,14 +65,9 @@ To get OnlineJudgeV2 up and running on your local machine, follow these instruct
    - Optionally, you can run the client and server separately by navigating to their respective directories and executing `npm start` in each.
 
 6. **Accessing OnlineJudgeV2**:
-   - Once everything is up and running, your local instance of OnlineJudgeV2 should be accessible. The client will typically run on `http://localhost:3000`, and the server will run on `http://localhost:5000`.
+   - Once everything is up and running, your local instance of OnlineJudgeV2 should be accessible. The client will typically run on `http://localhost:3000`, and the server will run on `http://localhost:8080`.
 
 ### Troubleshooting
 
 - If you encounter any issues during the setup, ensure all the environment variables are correctly set and that Docker is running properly.
 - For any dependency-related issues, try removing the `node_modules` folder in the client and server directories, and run `npm install` again.
-  gi
-
-## Support and Contact
-
-For any assistance or inquiries, feel free to connect with me on [LinkedIn](https://linkedin.com/in/ahnafhasan144).
