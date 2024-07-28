@@ -9,7 +9,7 @@ function Status() {
     (async function () {
       setLoading(true);
       try {
-        const res = await fetch("http://localhost:5000/api/code/submissions", {
+        const res = await fetch("http://localhost:8080/api/code/submissions", {
           credentials: "include",
         });
         const data = await res.json();

@@ -8,7 +8,7 @@ export default function Navbar() {
   const dispatch = useDispatch();
 
   const handleLogin = async () => {
-    window.open("http://localhost:5000/api/auth/google", "_self");
+    window.open("http://localhost:8080/api/auth/google", "_self");
   };
   const handleLogout = () => {
     dispatch(asyncLogout() as any);
@@ -18,7 +18,7 @@ export default function Navbar() {
       <div className="flex items-center font-mono h-full px-12 justify-between z-50">
         <h1 className="text-3xl font-black text-slate-200 z-50">
           <Link to={"/"} className="text-inherit">
-            SimpleOJ
+            OnlineJudgeV2
           </Link>
         </h1>
         <div className="flex items-center z-50">

@@ -13,7 +13,7 @@ services:
     ports:
       - 27017:27017
     volumes:
-      - simpleoj:/data/db
+      - OnlineJudgeV2:/data/db
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: password
@@ -21,9 +21,9 @@ services:
   server:
     build: ./server
     ports:
-      - 5000:5000
+      - 8080:8080
     environment:
-      MONGO_URI: mongodb://root:password@db:27017/simpleoj?authSource=admin
+      MONGO_URI: mongodb+srv://vaibhavpro9210:zLyfXZIKH2Wt9qow@cluster-zero.iws1nvz.mongodb.net/OnlineJudgeV2
 
     volumes:
       - ./server:/app
@@ -38,4 +38,4 @@ services:
     image: redis:7.2.3-alpine
 
 volumes:
-  simpleoj:
+  OnlineJudgeV2:

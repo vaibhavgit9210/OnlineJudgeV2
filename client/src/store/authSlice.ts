@@ -6,7 +6,7 @@ const initialState: InitialStateType = {
   user: undefined
 };
 
-const URL = 'http://localhost:5000/api'
+const URL = 'http://localhost:8080/api'
 
 export const asyncLogin = createAsyncThunk(
   "auth/asyncLogin",

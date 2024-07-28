@@ -7,7 +7,7 @@ const initialState: InitialStateType = {
   language: "",
 };
 
-const URL = "http://localhost:5000/api";
+const URL = "http://localhost:8080/api";
 
 export const asyncSubmissionContent = createAsyncThunk(
   "code/fetchSubmissionContent",

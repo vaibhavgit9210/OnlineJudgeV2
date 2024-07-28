@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <div className="max-w-4xl mx-auto mb-8">
         <div>
-          <img src="/cta.webp" alt="" className="mx-auto" />
+          <img src="/homebg.png" alt="" className="mx-auto" />
         </div>
         <div className="font-mono mt-8">
           <h1 className="text-3xl mb-8">Select a problem to solve</h1>
@@ -27,7 +27,7 @@ export default function Home() {
       </div>
       <footer className="fixed bottom-0 left-0">
         <p className="text-xs m-0">
-          Made By <a href="https://github.com/ah-naf">Ahnaf</a>
+          Made By <a href="https://github.com/vaibhavgit9210">Vaibhav</a>
         </p>
       </footer>
     </>
